@@ -1,0 +1,19 @@
+.btn-primary {
+  padding: 1.5rem 2.4rem;
+  background-color: var(--pink-10);
+  color: var(--color-gray-900, );
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 100%;
+  letter-spacing: -0.048rem;
+  transition: background-color .3 ease;
+}
+
+.btn-primary.lg {
+  font-size: 1.8rem;
+  padding: 23px 24px;
+}
+
+.btn-primary:hover {
+  background-color: var(--pink-20);
+}
