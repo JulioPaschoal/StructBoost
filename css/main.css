@@ -122,7 +122,80 @@ header nav ul li a:hover {
 .s-digital ul {
   display: flex;
   justify-content: space-between;
-  border_bottom: 1px solid var(--gray-800);
+  border-bottom: 1px solid var(--gray-800);
   padding-bottom: 12.8rem;
 
+}
+
+/* CSS DO SECTION CARDS POST */
+
+.s-art-front {
+  padding: 12.8rem 0;
+}
+
+.s-art-front .title-text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 6.4rem;
+}
+
+.s-art-front .title-text P {
+  color: var(--gray-600);
+  letter-spacing: -0.54;
+}
+
+.s-art-front .title-text h3 {
+  letter-spacing: -1.2px;
+  font-weight: 600;
+}
+
+.s-art-front .title-text .left {
+  max-width: 53.9rem;
+  margin-top: 1.7rem;
+}
+
+.s-art-front .title-text .left p {
+  max-width: 45.2rem;
+  font-size: 1.7rem;
+}
+
+.s-art-front .title-text .right {
+  max-width: 42.9rem;
+}
+
+.s-art-front .all {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3.2rem;
+}
+
+.s-art-front .all .card-post:first-child {
+  grid-column: span 2;
+}
+
+/* CSS DO SECTION NEWSLATTER */
+.s-newslatter {
+  padding: 8.9rem 0;
+  background: var(--pink-10);
+}
+
+.s-newslatter .container {
+  text-align: center;
+}
+
+.s-newslatter h2 {
+  max-width: 64.6rem;
+  margin: 0 auto;
+  margin-bottom: 1.6rem;
+  font-weight: 600;
+  letter-spacing: -1.44px;
+}
+
+.s-newslatter p {
+  max-width: 68.7rem;
+  margin: 0 auto;
+  margin-bottom: 2.4rem;
+  font-weight: 400;
+  letter-spacing: -0.66px;
 }
